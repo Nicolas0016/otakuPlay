@@ -1,0 +1,58 @@
+[
+  {
+    "ads": 0,
+    "allow_mobile": true,
+    "code": "https://mega.nz/embed/!5GkVlS7b!3be_NV5HvGQXtRfRypH76baaNXzlXTMDRYVg805uXig",
+    "server": "mega",
+    "title": "MEGA",
+    "url": "https://mega.nz/#!5GkVlS7b!3be_NV5HvGQXtRfRypH76baaNXzlXTMDRYVg805uXig"
+  },
+  {
+    "ads": 0,
+    "allow_mobile": true,
+    "code": "https://www.yourupload.com/embed/Y64YW3gNMLB8",
+    "server": "yu",
+    "title": "YourUpload",
+    "url": ""
+  },
+  {
+    "ads": 0,
+    "allow_mobile": true,
+    "code": "https://streamwish.to/e/o8ws5cqheqgt",
+    "server": "sw",
+    "title": "SW",
+    "url": ""
+  },
+  {
+    "ads": 0,
+    "allow_mobile": true,
+    "code": "https://ok.ru/videoembed/5389687065262",
+    "server": "okru",
+    "title": "Okru",
+    "url": ""
+  },
+  {
+    "ads": 0,
+    "allow_mobile": true,
+    "code": "https://my.mail.ru/video/embed/7512958666216050519#aylaz9ymde#3927",
+    "server": "maru",
+    "title": "Maru",
+    "url": ""
+  },
+  {
+    "ads": 1,
+    "allow_mobile": true,
+    "code": "https://hqq.tv/player/embed_player.php?vid=by9wcVIxNjFBNHdlUjQxMzFweXBoZz09",
+    "server": "netu",
+    "title": "Netu",
+    "url": ""
+  },
+  {
+    "ads": 1,
+    "allow_mobile": true,
+    "code": "https://streamtape.com/e/RQq0o2Z9XOud19G/",
+    "server": "stape",
+    "title": "Stape",
+    "url": "https://streamtape.com/v/RQq0o2Z9XOud19G/"
+  }
+]
