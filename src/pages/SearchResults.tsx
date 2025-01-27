@@ -1,8 +1,8 @@
 import { Link, useSearchParams } from "react-router-dom";
 import SkeletonSearchResults from "../components/SkeletonSearchResults";
 import useSearchAnimes from "../hooks/useSearchAnimes";
+//import animes from "../mocks/searchAnimes.json";
 import NotFound from "./Error";
-
 export default function SearchResults() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("q");
@@ -19,8 +19,18 @@ export default function SearchResults() {
         return "bg-gray-500";
     }
   };
+  function categories() {
+    const categoriesAnime: Array<string> = [];
+    if (animes) {
+      animes.map((anime) => {
+        if (!categoriesAnime.includes(anime.type)) {
+          categoriesAnime.push(anime.type);
+        }
+      });
 
-  // Llama a useSearchAnimes siempre, independientemente del valor de query
+      return categoriesAnime;
+    }
+  }
   const { animes, error, loading, fetchAnimeDetails } = useSearchAnimes(
     query || ""
   );
@@ -34,6 +44,12 @@ export default function SearchResults() {
 
   return (
     <div className="container mx-auto py-4 lg:px-[200px] sm:px-12">
+      <nav>
+        <select name="" id="">
+          <option value="all">Por defecto</option>
+          {categories()}
+        </select>
+      </nav>
       <ul
         style={{
           gridTemplateColumns: "repeat(auto-fit, minmax(170px, 1fr))",
